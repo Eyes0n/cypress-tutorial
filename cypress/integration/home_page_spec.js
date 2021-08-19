@@ -1,9 +1,8 @@
 describe('The Home Page', () => {
   it('successfully loads', () => {
     // change URL to match your dev URL
-
     // cy.visit('/'); // cypress.json 파일의 baseUrl을 수정한 경우
-    cy.visit('http://localhost:3000/'); // cypress.json 파일 수정 X 경우
+    cy.visit('https://sorting-machine.netlify.app/'); // cypress.json 파일 수정 X 경우
   });
 });
 
